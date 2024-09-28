@@ -1,0 +1,79 @@
+.aboutmain {
+    height: 100vh;
+    width: auto;
+    background: linear-gradient(to bottom, #87A2FF, #FFF4B5);
+    display: flex;
+    justify-content: center;
+    
+}
+.container_a {
+    display: flex;
+}
+.aboutbody {
+    height: 600px;
+    width: 600px;
+    margin-top: 1vh;
+    padding: 10px;
+    margin-left: 2px;
+}
+
+h1 {
+    margin-top: 60vh;
+    font-size: 40px;
+}
+p {
+    margin: 10px;
+    font-weight: bold;
+}
+
+span {
+    color: maroon;
+    animation: name 1s infinite linear;
+}
+@keyframes name {
+    0% {
+        color: #87A2FF;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    }
+    100%{
+        color: blue;
+    }
+}
+.aboutabout_b {
+    height: 600px;
+    width: 600px;
+    background-color: #FFD7C4;
+    margin-top: 10vh;
+    padding: 10px;
+    margin-left: 2vh;
+    animation: image 15s infinite linear;
+}
+@keyframes image {
+    0% {
+        background-image: url('a.jpg');
+        background-size: cover;
+        transform: rotate3d(1, 1, 2 ,15deg);
+        border-radius: 40px 10px 40px 10px;
+        box-shadow: 0px 10px 15px gray;
+    }
+    50% {
+        background-image: url('b.jpg');
+        background-size: cover;
+        transform: rotate3d(1, 3, 2 ,10deg);
+        border-radius: 50%;
+    }
+    100%{
+        background-image: url('c.jpg');
+        background-size: cover;
+        transform: rotate3d(1, 1, 2 ,15deg);
+        border-radius: 40px 10px 40px 10px;
+        box-shadow: 0px 10px 15px gray;
+    }
+}
+
+.abouts {
+    height: 100px;
+    width: 200px;
+    background-color: blue;
+    margin-top: 120vh;
+}

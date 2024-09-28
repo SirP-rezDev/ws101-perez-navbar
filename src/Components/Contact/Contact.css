@@ -1,0 +1,57 @@
+.mains {
+    height: 100vh;
+    width: auto;
+    background: linear-gradient(to bottom,#FFF4B5, #87A2FF );
+    margin-top: -60vh;
+}
+
+#content {
+    display: flex;
+    justify-content: center;
+    background-color: red;
+    width: 100vh;
+    height: 80vh;
+    margin: 0 auto;
+    border-radius: 20px;
+}
+.info {
+    display: flex;
+    justify-content: flex-end;
+}
+
+input {
+    width: 100px;
+    height: 30px;
+}
+#ab {
+    display: grid;
+    justify-content: flex-start;
+}
+
+
+
+h3 {
+    font-size: 20px;
+}
+
+#gh, h1 {
+    color: black;
+    display: flex;
+    justify-content: center;
+    animation: info 14s infinite linear;
+    transition: all 0.3s ease;
+}
+
+#gh:hover {
+    font-size: 40px;
+    text-shadow: 0px 10px 18px gray;
+}
+
+@keyframes info {
+    0% {
+        color: skyblue;
+    }
+    100% {
+        color: maroon;
+    }
+}
